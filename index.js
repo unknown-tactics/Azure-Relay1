@@ -1,7 +1,7 @@
 const http = require('http');
 const httpProxy = require('http-proxy');
 
-const TARGET_URL = 'YOUR_X-RAY_SERVER_ADDRESS';
+const TARGET_URL = '91.99.223.225';
 
 const keepAliveAgent = new http.Agent({
   keepAlive: true,
